@@ -1,7 +1,12 @@
 import React from 'react'
+import Header from './header';
 
-export default function blog() {
+ function blog() {
   return (
-    <div>blog</div>
+    <div>
+      <Header/>
+        <h1>blog</h1>
+    </div>
   )
 }
+export default blog;
